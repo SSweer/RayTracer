@@ -22,7 +22,6 @@ void Camera::setScreen(Screen& screen) {
 }
 
 Ray Camera::generateRay(Sample& sample) {
-
 	float angle = tan((_fov / 2) * PI / 180);
 
 	float i = ((2 * (sample.x + 0.5) - _screen.getWidth()) / _screen.getWidth()) * angle;
