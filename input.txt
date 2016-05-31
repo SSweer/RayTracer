@@ -1,0 +1,5 @@
+Same triangle as before, but translated down by -10. Rendered in about 4 seconds.
+
+-triangle -5 -5 15 5 -5 15 0 5 15 -kd 0.9 0 0 -ks 0.6 0.6 0.6 -ka 0.1 0.1 0.1 -sp 16 -dl 2 2 2 1 1 1 -camera 0 0 0 0 0 1 0 1 0 105 -size 600 600 -out test
+
+-camera 0 0 0 0 0 -5 0 1 0 120 -triangle 5 5 -17 1 4 -20 6 -1 -20 -ka 0.1 0.1 0.1 -kd 0.1 0.1 0.1 -ks 1 1 1 -kr 1 1 1 -sp 50  -sphere 0 0 -20 3 -ka 0.1 0.1 0.1 -kd 1 0 1 -ks 1 1 1 -kr 0 0 0 -sp 50 -sphere -2 2 -15 1 -ka 0.1 0.1 0.1 -kd 1 1 0 -ks 1 1 1 -kr 0 0 0 -sp 100 -sphere -2 -2 -15 1 -ka 0.1 0.1 0.1 -kd 0 1 1 -ks 1 1 1 -kr 0 0 0 -sp 50 -dl 0.57735027 -0.57735027 -0.57735027 1 1 1 -dl 0.57735027  0.57735027 -0.57735027 0 0 1 -maxdepth 5 -size 500 500 -out shadow
